@@ -28,6 +28,11 @@ The course is intended for hands-on practice with retrieval-augmented generation
 3. Launch Jupyter:  
    `jupyter lab` (or `jupyter notebook`)
 
+
+Alternatively, you can use Google Colab to run the notebooks
+- https://colab.research.google.com/
+
+
 ## Configuration (optional)
 Create a `.env` file for API keys and local settings used by certain notebooks:
 
@@ -46,9 +51,6 @@ Place your documents (PDF/MD/HTML/text) in `data/`. Notebooks expect relative pa
 ## Notes
 - GPU acceleration is optional but recommended when using larger models.
 - Some notebooks may offer interchangeable backends (e.g., FAISS vs. in-memory) to simplify setup.
-
-## License
-Unless otherwise stated, code in this repository is provided under the MIT License.
 
 ## Acknowledgments
 Inspired by NVIDIA’s “Building RAG Agents with LLMs” workshop materials.
